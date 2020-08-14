@@ -3,6 +3,7 @@ deactivate    退出环境到base
 
 
 conda search <package_names>  搜索
+conda update <package_names>
 conda install <package_names>  安装指定的包(当前环境)
 
 conda create -n py3.5 python=3.7    创建新环境
