@@ -1,0 +1,15 @@
+activate <env_name>  切换环境
+deactivate    退出环境到base
+
+
+conda search <package_names>  搜索
+conda install <package_names>  安装指定的包(当前环境)
+
+conda create -n py3.5 python=3.7    创建新环境
+conda create --name <new_env_name> --clone <copied_env_name>   复制创建
+
+
+conda list   显示已安装的包(当前环境)
+
+
+conda update conda 如果更改了清华源还是不行的话，更新一下
